@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "17103f2179f65cc1cb3bdca45dc7b55790614b68"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "OP2/1.0.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.6.0-preview3.19128.7"
+        },
+        "runtime": {
+          "OP2.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0-preview3.19128.7": {},
+      "System.Runtime.CompilerServices.Unsafe/4.6.0-preview3.19128.7": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.7.19.12807"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.6.0-preview3.19128.7": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0-preview3.19128.7",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview3.19128.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.7.19.12807"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.7.19.12807"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OP2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.0.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UAQzIzDzeac6D9AgqDah7W+4ZjFgvjkQyDbi7HAPx4DPWbArR2tCJo8nrNtSUD7BEln4VyQeGTRymW8PKkFOpA==",
+      "path": "microsoft.netcore.platforms/3.0.0-preview3.19128.7",
+      "hashPath": "microsoft.netcore.platforms.3.0.0-preview3.19128.7.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viWo540/lOqsWNW50LJnw2rQBYYgJTENNh5OO+Bf9uXLnX/RUg9PdPlUS4/sE2j24va1AETO2OMiHOUek9iZDw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0-preview3.19128.7",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0-preview3.19128.7.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.6.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gHFEfan6q8qC+RjWK3Jli23IL51pPV+cPvOzSXQP35HaJeXH7LUAptX3XpHLvkKCWW/c2KTUG+8FO0EbuNxDSA==",
+      "path": "system.text.encoding.codepages/4.6.0-preview3.19128.7",
+      "hashPath": "system.text.encoding.codepages.4.6.0-preview3.19128.7.nupkg.sha512"
+    }
+  }
+}
